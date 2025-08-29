@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: lightgray;
+    
+}
+
+header > h1{
+font-size: 7em;
+    font-variant: small-caps;
+}
+header > p{
+font-size: 2.5em;
+
+}
+nav{
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+nav > a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 3vh;
+}
+
+section > h1{
+    padding-left: 25px;
+}
+
+aside{
+    font-size: 3vh;
+    text-align: justify;
+     padding-left: 17px;
+    padding-right: 17px;
+}
+.img{
+    
+    background-attachment: fixed;
+    background-position: center, center;
+    background-size: cover;
+    background-image: url('jjba-dio-fbi.avif');
+}
